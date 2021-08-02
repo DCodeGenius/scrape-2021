@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 import urllib
 from urllib.request import Request, urlopen
-from second import get_company_url
+from get_company_url import get_company_url
 
 links_com = []
 i = 0
